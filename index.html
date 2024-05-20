@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/11ee44ef58.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="budgetApp container">
+      <div class="content1">
+        <div class="budget">
+          <h1>Budget</h1>
+          <div class="input">
+            <input
+              type="number"
+              class="nums"
+              placeholder="ENTER TOTAL AMOUNT"
+            />
+          </div>
+          <button type="BTN" class="SetBtn">set Budget</button>
+        </div>
+        <div class="budget">
+          <h1>Expense</h1>
+          <div class="inputs">
+            <input
+              class="Title-Product"
+              type="text"
+              placeholder="Enter Title of product"
+            />
+            <input
+              class="Cost-Product"
+              type="number"
+              placeholder="Enter Cost of product"
+            />
+          </div>
+          <button class="Check-BTN" type="BTN">Check Amount</button>
+        </div>
+      </div>
+      <div class="content2">
+        <div class="Total-budget"></div>
+        <div class="Total-expenses"></div>
+        <div class="Balance"></div>
+      </div>
+    </div>
+
+    <div class="content3">
+      <div class="jax">
+        <h3>Expense list</h3>
+        <div class="products">
+        </div>
+      </div>
+    </div>
+
+    <script defer src="KACHI.js"></script>
+  </body>
+</html>
+
